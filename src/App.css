@@ -1,0 +1,52 @@
+.box{
+    border: 1px solid rgb(191, 188, 188);
+    height: 350px;
+    width:270px;
+    border-radius: 4px;
+}
+.box1{
+    display:flex;
+    flex-wrap: wrap;
+    gap:50px;
+    margin: 95px;
+    justify-content: center;
+}
+.image{
+    height:175px;
+    width:268px;
+}
+.body{ 
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 9px;
+    background-color: bisque;
+}
+.butn{ 
+    display:block;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:white;
+    
+}
+.butn:hover{
+    background-color: black;
+    transition: 0.6s;
+    color: azure;
+}
+.sale{
+    position: absolute;
+    background-color: black;
+    color: azure;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 220px;
+    font-size: small;
+    font-family:fantasy ;
+}
+.star{
+    margin-top:15px;
+    text-align: center;
+}
